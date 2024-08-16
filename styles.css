@@ -1,0 +1,70 @@
+*{
+    text-transform: capitalize;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 10px;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    overflow-x: hidden;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    background-color: black;
+    color: rgb(207, 210, 30);
+}
+button{
+    cursor: pointer;
+}
+.heading h1{
+    padding: 10px 0;
+}
+.input{
+    padding: 20px; 
+}
+.user-input{
+    margin: 20px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.submit-btn{
+    background-color: rgb(207, 210, 30);
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.submit-btn:hover{
+    background-color: rgba(148, 150, 7, 0.904);
+}
+.restart-btn{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(181, 254, 171);
+}  
+.restart-btn:hover{
+    background-color: rgba(126, 245, 111, 0.899);
+} 
+.wrong-or-right{
+    color: aliceblue;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+@media screen and (min-width: 500px){
+    body{
+        transform: translate(-50%, 30%);
+    }
+}
+
+
+
+@media screen and (min-width: 700px){
+    body{
+        transform: translate(-50%, 50%);
+    }
+}
